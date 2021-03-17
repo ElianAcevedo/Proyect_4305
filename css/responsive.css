@@ -128,7 +128,7 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
-    .about {background: inherit;}
+    .about {background:rgb(128, 128, 0);} 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .main-menu ul > li a {padding: 22px 20px;}

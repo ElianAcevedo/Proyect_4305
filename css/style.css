@@ -439,7 +439,7 @@ a.readmore_bt {
      font-family: poppins;
      padding: 10px 0px;
      /*background: url(../images/hea.png);*/
-     background-color: #C6CA53;
+     background-color: rgb(128, 128, 0);
      background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: center center;
@@ -1516,7 +1516,7 @@ a.slide_banner:hover::before {
      background: #38c8a8;
 }
 .heroslider .swiper-pagination .swiper-pagination-bullet-active {
-     background: #fff;
+     background: rgb(207, 221, 84);
 }
 .heroslider .swiper-pagination::before {
      content: "";
@@ -1712,9 +1712,9 @@ color: #fff;
 
 /** about **/
 .about {
-     padding-top: 90px ;
-     padding-bottom: 84px ;
-     background: url(../images/aboutbg.jpg);
+    padding-top: 90px ;
+    padding-bottom: 84px ;
+    background: url(../images/aboutbg.jpg);
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
@@ -2095,7 +2095,7 @@ ul.location_icon span {
 /*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
 
 .brand_color {
-     background-color: #ddd;
+     background-color: #fff;
 }
 .brand_color .titlepage {
      margin-top: 90px;
@@ -2124,7 +2124,7 @@ ul.location_icon span {
 #myCarousel .carousel-control-next {
      width: 62px;
      height: 60px;
-     background: #fffdfd;
+     background: #fffffdf5;
      opacity: 1;
      font-size: 30px;
      color: #000;
