@@ -1714,7 +1714,8 @@ color: #fff;
 .about {
     padding-top: 90px ;
     padding-bottom: 84px ;
-    background: url(../images/aboutbg.jpg);
+    background-color:#808000;
+   /** background: url(../images/aboutbg.jpg);**/
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
@@ -1725,7 +1726,8 @@ color: #fff;
 }
 
 .about .about_img figure {
-     margin: 0px;
+     margin: -10px;
+    
 }
 
 .about .about_box {
