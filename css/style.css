@@ -1727,12 +1727,13 @@ color: #fff;
 
 .about .about_img figure {
      margin: -10px;
+     
     
 }
 
 .about .about_box {
      text-align: right;
-     padding-top: 130px;
+     padding-top: 20px;
 }
 
 .about .about_box h3 {
@@ -1754,9 +1755,10 @@ display: block
 }
 
 .about .about_box p {
+     
      font-size: 17px;
      line-height: 30px;
-     color: #23242a;
+     color: #000;
 }
 
 .about_box_ span {
