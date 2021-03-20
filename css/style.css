@@ -1726,9 +1726,14 @@ color: #fff;
 }
 
 .about .about_img figure {
-     margin: -10px;
+     margin: 10px;
+     align-items: baseline;
+     
      
     
+}
+.about .about_img2 figure{
+     margin: 120px;
 }
 
 .about .about_box {
