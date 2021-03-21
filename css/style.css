@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fontawesome.com/icons/check-square?style=solid');
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -1752,9 +1753,9 @@ color: #fff;
 
 .about .about_box span {
      font-weight: bold;
-     font-size: 50px;
+     font-size: 80px;
      line-height: 58px;
-     color:#23242a; 
+     color:#000; 
      padding-bottom: 10px;
 display: block
 }
@@ -1782,6 +1783,18 @@ display: block
      font-size: 17px;
      line-height: 30px;
      color: #23242a;
+}
+.check-list ul {
+     
+     list-style: none;
+
+     
+}
+.check-list li ::before{
+     content: "\f046";
+}
+.check-list li.hola::before{
+     content: '►';
 }
 /** end about **/
 
